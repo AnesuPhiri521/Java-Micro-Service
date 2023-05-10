@@ -5,7 +5,6 @@ import com.sehphirry.users.dto.request.LoginDto;
 import com.sehphirry.users.dto.request.OtpDto;
 import com.sehphirry.users.dto.response.CustomDtoResponse;
 import com.sehphirry.users.service.AuthService;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

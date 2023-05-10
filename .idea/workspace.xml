@@ -4,7 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="508e157b-3c21-4cc8-a694-d1c10c937cee" name="Changes" comment="" />
+    <list default="true" id="508e157b-3c21-4cc8-a694-d1c10c937cee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/billing-service/billing-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/BillingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/controller/BillingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/dto/response/CustomDtoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/model/VendorBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/repository/VendorBalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/service/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/java/com/sehphirry/transaction/service/Impl/BillingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/billing-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server-service/src/main/java/com/sehphirry/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/notification-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/sehphirry/notification/NotificationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/sehphirry/notification/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/sehphirry/notification/dto/NotificationRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/sehphirry/notification/service/MQConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/sehphirry/notification/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/dto/request/NotificationRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/model/VendorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/model/VendorNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/model/Verification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/repository/VendorClientsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/repository/VendorNumberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/repository/VerificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/service/impl/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/service/impl/MQProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/utils/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/utils/VerificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alert-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/billing-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/UsersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/UsersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/dto/request/CreateUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/dto/request/CreateUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/dto/response/CustomDtoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/dto/response/CustomDtoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/sehphirry/users/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/UsersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/UsersApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/dto/request/CreateUserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/dto/request/CreateUserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/dto/response/CustomDtoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/dto/response/CustomDtoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/model/Users$UsersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/model/Users$UsersBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/service/impl/AuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/sehphirry/users/service/impl/AuthServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +75,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -27,23 +90,21 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2OKRSdZbKV92UF2Eo2ikPC5gwZa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -52,18 +113,42 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/anesuphiri/Documents/space/java/pos/users/src/main/java/com/sehphirry/users/dto",
+    "last_opened_file_path": "/Users/anesuphiri/Documents/space/java/pos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "c28d5783d54cee860d4fd328fb104659",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sehphirry.transaction.service" />
+      <recent name="com.sehphirry.transaction.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notification-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/transactions-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/device-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/transactions-service/src/main/java" />
       <recent name="$PROJECT_DIR$/users/src/main/java/com/sehphirry/users/dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api-gateway" />
+      <recent name="$PROJECT_DIR$/discovery-server-service" />
+      <recent name="$PROJECT_DIR$/discovery-server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sehphirry.users.dto.request" />
+      <recent name="com.sehphirry.transaction.dto.request" />
+      <recent name="com.sehphirry.transaction.dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,10 +158,43 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DevicesApplication">
+  <component name="RunManager" selected="Spring Boot.NotificationApplication">
+    <configuration name="BillingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="billing-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sehphirry.transaction.BillingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DevicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="device-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sehphirry.devices.DevicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery-server-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sehphirry.discoveryserver.DiscoveryServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sehphirry.discoveryserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sehphirry.notification.NotificationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sehphirry.notification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NotificationApplication" />
+        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,11 +221,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681307288099</updated>
-      <workItem from="1681307289170" duration="4456000" />
+      <workItem from="1681307289170" duration="6054000" />
+      <workItem from="1681369144722" duration="651000" />
+      <workItem from="1681372063794" duration="11115000" />
+      <workItem from="1681485766174" duration="9085000" />
+      <workItem from="1681664198166" duration="113000" />
+      <workItem from="1681664315750" duration="11000" />
+      <workItem from="1681664363960" duration="6952000" />
+      <workItem from="1681713622503" duration="1209000" />
+      <workItem from="1681718885929" duration="11644000" />
+      <workItem from="1681829975139" duration="1506000" />
+      <workItem from="1681832066894" duration="130000" />
+      <workItem from="1681832434286" duration="1797000" />
+      <workItem from="1681894124101" duration="5263000" />
+      <workItem from="1683131534224" duration="1101000" />
+      <workItem from="1683537433324" duration="5934000" />
+      <workItem from="1683563426803" duration="11420000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

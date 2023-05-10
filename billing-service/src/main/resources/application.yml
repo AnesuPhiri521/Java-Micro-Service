@@ -1,0 +1,20 @@
+server:
+    port: 9004
+
+spring:
+    application:
+        name: billing-service
+
+####################################################
+#           MYSQL CONFIGURATION
+####################################################
+    datasource:
+        url: jdbc:mysql://localhost:3306/Billing?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false
+        username: root
+        password:
+    jpa:
+        hibernate:
+            ddl-auto: update
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

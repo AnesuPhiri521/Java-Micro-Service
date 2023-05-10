@@ -1,14 +1,23 @@
 package com.sehphirry.users.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Builder;
-import lombok.Data;
+import com.sehphirry.users.utils.Roles;
+import lombok.*;
+import org.hibernate.annotations.CreationTimestamp;
 
-@Data
+import javax.persistence.*;
+import java.util.Date;
+import java.util.List;
+
 @Builder
+@Entity
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Users {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String firstName;
     private String lastName;
@@ -18,14 +27,10 @@ public class Users {
     private boolean isActive;
     @JsonIgnore
     private String password;
-//    @Enumerated(EnumType.STRING)
-//    private Roles role;
-//    @CreationTimestamp
-//    private Date dateCreated;
-//    @OneToMany(mappedBy="id")
-//    private List<Device> userDevices;
-//    @OneToMany(mappedBy="id")
-//    private List<Transaction> userTransaction;
-//    @OneToMany(mappedBy="id")
-//    private List<Verification> userVerification;
+    @Enumerated(EnumType.STRING)
+    private Roles role;
+    @CreationTimestamp
+    private Date dateCreated;
+    @OneToMany(mappedBy="id")
+    private List<Verification> userVerification;
 }
